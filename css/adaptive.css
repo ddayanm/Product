@@ -8,7 +8,49 @@
   .work {
     flex-direction: column-reverse;
   }
+  .work img {
+    max-width: 338px;
+  }
+
+  .work-content h1 {
+    text-align: center;
+  }
+  .work-content {
+    align-items: center;
+  }
+  .work-content p {
+    width: 100%;
+    max-width: 230px;
+    text-align: center;
+  }
+  .main {
+    justify-content: center;
+  }
+  .main-cart {
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+  }
+  .cart img {
+    margin: 0 auto;
+  }
+  .menagment {
+    padding-top: 40px;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .customer {
+    padding-top: 40px;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .collaborative {
+    padding-top: 40px;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
 }
+
 @media (max-width: 600px) {
   .header-logo {
     gap: 8px;
