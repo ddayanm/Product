@@ -102,3 +102,61 @@ nav button {
   background: #02897a;
   color: #fff;
 }
+
+#work {
+  padding-block: 40px;
+}
+
+.work {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.work-content {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.work-content h1 {
+  font-size: clamp(1.625rem, 1.292rem + 1.67vw, 2.625rem);
+}
+
+.work-content p {
+  font-size: clamp(0.813rem, 0.708rem + 0.52vw, 1.125rem);
+}
+.work-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.work-btn button {
+  padding: 10px 25px;
+}
+
+.work-btn button ion-icon {
+  font-size: 23px;
+}
+.work-btn button:first-child {
+  background: #02897a;
+  color: #fff;
+}
+
+.work-btn button:last-child {
+  color: #02897a;
+  background: none;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.work img {
+  width: 100%;
+  max-width: 550px;
+}

@@ -5,6 +5,9 @@
   .burger-menu {
     display: flex;
   }
+  .work {
+    flex-direction: column-reverse;
+  }
 }
 @media (max-width: 600px) {
   .header-logo {
