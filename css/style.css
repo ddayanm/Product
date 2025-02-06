@@ -41,7 +41,7 @@ button {
 
 .header-logo {
   display: flex;
-  gap: 15px;
+  gap: 20px;
 }
 
 .header-logo img {
@@ -57,7 +57,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  gap: 50px;
 }
 
 nav {
