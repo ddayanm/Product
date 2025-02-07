@@ -478,6 +478,7 @@ nav button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 .carts {
@@ -584,10 +585,10 @@ nav button {
 
 .physics-content {
   width: 100%;
-  padding-block: 20px;
+  padding-block: 50px;
+
   display: flex;
   justify-content: space-between;
-
   gap: 20px;
 }
 
@@ -595,6 +596,7 @@ nav button {
   width: 100%;
   max-width: 330px;
   padding: 20px;
+  border-radius: 4px;
   line-height: 30px;
   border: 2px solid #dedede;
   display: flex;
@@ -602,7 +604,13 @@ nav button {
 }
 
 .icon ion-icon {
-  color: yellow;
+  color: #f3cd03;
+}
+
+.icons .p {
+  color: #737373;
+  padding-block: 10px;
+  font-style: clamp(0.875rem, 0.784rem + 0.45vw, 1.125rem);
 }
 
 .ellipse {
