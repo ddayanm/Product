@@ -437,13 +437,17 @@ nav button {
 }
 
 .wahid h1 {
-  font-size: (1.125rem, 1rem + 0.63vw, 1.5rem);
+  font-size: clamp(1.5rem, 1.318rem + 0.91vw, 2rem);
   font-weight: 700;
 }
 
 .ari {
   width: 100%;
   max-width: 400px;
+}
+
+.ari .h1 {
+  color: #02897a;
 }
 
 .ari span {
